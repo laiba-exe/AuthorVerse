@@ -1,0 +1,63 @@
+.navbar-container{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 1rem 0;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: Chivo Mono;
+    font-weight: 700;
+}
+
+.logo span{
+    font-family: Chivo Mono;
+}
+
+.nav-links-container{
+    display: flex;
+    align-items: center;
+}
+
+.cart-link{
+    display: inline-block;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.nav-links, .nav-links-dark{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.nav-links-dark{
+    color: #333;
+}
+
+.nav-links:hover{
+    color: var(--primary-color);
+}
+
+.nav-links-dark:hover{
+    color: var(--primary-color);
+}
+
+.background-dark{
+    background-color: #333;
+}
+
+.background-transparent{
+    background-color: transparent;
+}
+
+.relative{
+    position: relative;
+}
